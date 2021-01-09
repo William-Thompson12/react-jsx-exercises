@@ -1,15 +1,28 @@
 let Header = () => {
-    return <span>Design a header for your blog</span>
+    return <header>
+        <h1>Title</h1>
+        <h2>Name</h2>
+        </header>
 }
 let Article = () => {
-    return <span>Write and design your blog article</span>
+    return <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 }
 let Footer = () => {
-    return <span>Design a footer for your blog</span>
+    return <footer>
+        <p>Posted: Time</p>
+        <ul>
+            <li>Likes</li>
+            <li>Comments</li>
+        </ul>
+    </footer>
 }
 
 let Blog = () => {
-    return <span>Make this Component render the header, article, and footer</span>
+    return <div>
+            <Header />
+            <Article />
+            <Footer />
+        </div>
 }
 
 
